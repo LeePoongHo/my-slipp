@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>List!</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -56,25 +56,19 @@
 		<table class="table">
 		  <thead>
 		    <tr>
-		      <th scope="col">#</th>
 		      <th scope="col">사용자 아이디</th>
 		      <th scope="col">이름</th>
 		      <th scope="col">이메일</th>
 		    </tr>
 		  </thead>
 		  <tbody>
+		  	{{#users}}
 		    <tr>
-		      <th scope="row">1</th>
-		      <td>dlvndgh</td>
-		      <td>이풍호</td>
-		      <td>dlvndghs@naver.com</td>
+		      <th scope="row">{{userId}}</th>
+		      <td>{{name}}</td>
+		      <td>{{email}}</td>
 		    </tr>
-		    <tr>
-		      <th scope="row">2</th>
-		      <td>vlakdfnd</td>
-		      <td>정영준</td>
-		      <td>dudwns@naver.com</td>
-		    </tr>
+		    {{/users}}
 		  </tbody>
 		</table>
 	</div>
