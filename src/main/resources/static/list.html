@@ -1,6 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <a class="navbar-brand" href="#">Navbar</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -46,33 +46,43 @@
 	    </form>
 	  </div>
 	</nav>
+	
+	
+	
 	<div class="container">
-	    <form>
-		  <div class="form-group">
-		    <label for="exampleInputId1">사용자 아이디</label>
-		    <input type="text" class="form-control" id="exampleInputId1" placeholder="Enter Id">
-		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputPassword1">비밀번호</label>
-		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputPassword1">이름</label>
-		    <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
-		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputEmail1">이메일</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-		  </div>
-		  <button type="submit" class="btn btn-primary">Submit</button>
-		</form>
+	
+		<h1>사용자 목록</h1>
+		
+		<table class="table">
+		  <thead>
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">사용자 아이디</th>
+		      <th scope="col">이름</th>
+		      <th scope="col">이메일</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">1</th>
+		      <td>dlvndgh</td>
+		      <td>이풍호</td>
+		      <td>dlvndghs@naver.com</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">2</th>
+		      <td>vlakdfnd</td>
+		      <td>정영준</td>
+		      <td>dudwns@naver.com</td>
+		    </tr>
+		  </tbody>
+		</table>
 	</div>
-    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
